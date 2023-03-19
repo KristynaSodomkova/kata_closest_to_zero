@@ -20,3 +20,12 @@ def find_closest_neg():
 def find_closest_pos():
     pos_closest = min(positive_list)
     return pos_closest
+
+
+def compare_two_values():
+    neg = find_closest_neg()
+    pos = find_closest_pos()
+    if pos - 0 > 0 - neg:
+        return neg
+    else:
+        return pos
