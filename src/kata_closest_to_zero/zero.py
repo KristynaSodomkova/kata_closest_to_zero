@@ -27,5 +27,7 @@ def compare_two_values():
     pos = find_closest_pos()
     if pos - 0 > 0 - neg:
         return neg
+    elif pos - 0 < 0 - neg:
+        return pos
     else:
         return pos

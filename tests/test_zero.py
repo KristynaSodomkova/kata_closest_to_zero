@@ -16,5 +16,7 @@ def test_find_closest_neg():
 def test_find_closest_pos():
     assert find_closest_pos() == 0
 
+
 def test_compare_two_values():
     assert compare_two_values() == 0
+
