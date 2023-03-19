@@ -19,7 +19,7 @@ def test_find_closest_pos():
     assert find_closest_pos(positive_list) == 0
 
 
-def test_compare_two_values():
-    assert compare_two_values(list_of_num) == 0
-    assert compare_two_values(list_of_num2) == 2
+def test_find_closest_to_zero():
+    assert find_closest_to_zero(list_of_num) == 0
+    assert find_closest_to_zero(list_of_num2) == 2
 

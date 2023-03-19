@@ -20,7 +20,7 @@ def find_closest_pos(positive_list):
     return pos_closest
 
 
-def compare_two_values(list_of_num):
+def find_closest_to_zero(list_of_num):
     neg_list, pos_list = create_neg_and_pos_lists(list_of_num)
     neg = find_closest_neg(neg_list)
     pos = find_closest_pos(pos_list)
