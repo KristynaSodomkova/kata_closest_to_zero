@@ -1,9 +1,7 @@
 
-negative_list = []
-positive_list = []
-
-
 def create_neg_and_pos_lists(list_of_num):
+    negative_list = []
+    positive_list = []
     for num in list_of_num:
         if num < 0:
             negative_list.append(num)

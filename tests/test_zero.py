@@ -8,7 +8,7 @@ def test_neg_and_pos_num_only():
     assert all(num < 0 for num in neg_list)
     assert all(num >= 0 for num in pos_list)
 
-def test_find_closest_neg(neg_list):
+def test_find_closest_neg():
     assert find_closest_neg() == -2
 
 
