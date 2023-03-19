@@ -15,3 +15,4 @@ def create_neg_and_pos_lists(list_of_num):
 def find_closest_neg():
     neg_closest = max(negative_list)
     return neg_closest
+
