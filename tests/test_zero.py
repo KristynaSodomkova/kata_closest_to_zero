@@ -12,5 +12,6 @@ def test_neg_and_pos_num_only():
 def test_find_closest_neg():
     assert find_closest_neg() == -2
 
+
 def test_find_closest_pos():
     assert find_closest_pos() == 0

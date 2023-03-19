@@ -16,3 +16,7 @@ def find_closest_neg():
     neg_closest = max(negative_list)
     return neg_closest
 
+
+def find_closest_pos():
+    pos_closest = min(positive_list)
+    return pos_closest
