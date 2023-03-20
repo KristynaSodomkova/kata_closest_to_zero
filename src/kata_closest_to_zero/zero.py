@@ -1,4 +1,9 @@
-
+# 3line block of code that would solve it all:
+"""
+def closest_to_zero(numbers):
+    closest = min(numbers, key=abs, default=max(filter(lambda x: x > 0, numbers), default=0))
+    return closest
+"""
 def create_neg_and_pos_lists(list_of_num):
     negative_list = []
     positive_list = []
